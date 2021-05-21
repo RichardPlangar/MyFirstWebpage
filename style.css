@@ -1,0 +1,224 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+}
+.topbox {
+  background-color: black;
+  height: 65px;
+  width: 1000px;
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  padding: 6px;
+  font-family: 'Dela Gothic One', cursive;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: red;
+}
+
+.firstblock {
+  display: flex;
+  }
+
+header {
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-repeat: no-repeat;
+  height: 220px;
+  width: 500px;
+  padding: 25px;
+  background-size: cover;
+  font-family: Abril Fatface;
+  color: #000000;
+}
+.name {
+  font-size: 52px;
+  text-align: center;
+  margin-top: 182px;
+}
+.h-text {
+  text-align: left;
+  margin-top: 160px;
+  margin-left: 210px;
+  position: absolute;
+}
+.intro {
+  margin-top: 0px;
+  font-family: Josefin Sans;
+  color: #222000;
+  font-size: 15px;
+  padding: 24px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.secondblock {
+  display: flex; 
+}
+.rule {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: grey;
+  margin-top: 55px;
+  margin: 0px;
+}
+.quote {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: Abril Fatface;
+ 
+}
+.quote::before {
+  content: open-quote;
+  font-family: Abril Fatface;
+  color: white;
+  font-size: 140px;
+  position: absolute;
+  left: 290px;
+  top: 320px;
+}
+.his {
+  text-transform: uppercase;
+}
+
+.thirdblock {
+  display: flex;
+  
+}
+#test {
+  height: 205px;
+  width: 653px;
+}
+#space {
+  padding: 25px;
+  margin-left: 30px;
+  line-height: 28px;
+}
+
+
+.note {
+  font-family: Merriweather;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 600;
+}
+.description {
+  font-family: Josefin Sans;
+  margin-top: 30px;
+  color: #222000;
+  font-size: 17px;
+  padding: 20px;
+  margin-left: 30px;
+  margin-top: 0px;
+  line-height: 25px;  
+}
+.forthblock {
+  display: flex;
+}
+.container::before {
+  content: open-quote;
+  font-family: Abril Fatface;
+  color: white;
+  font-size: 140px;
+  position: absolute;
+  left: 290px;
+  top: 860px;
+}
+.container {
+  background-color: grey;
+  width: 200px;
+  text-align: left;
+  
+}
+.container p {
+  font-size: 40px;
+  color: white;
+  font-family: Abril Fatface;
+ 
+}
+.description2 {
+  font-family: Josefin Sans;
+  color: #222000;
+  font-size: 15px;
+  padding: 20px;
+  line-height: 25px;
+  margin-left: 30px;
+}
+.state {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  line-height: 0px;
+}
+
+.fifthblock {
+  display: flex;    
+}
+.empty {
+  height: 205px;
+  width: 207px; 
+}
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-height: 25px;
+}
+#whether {
+  margin-left: 30px;
+  padding: 20px;
+}
+
+.state2 {
+  line-height: 0px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.lofi {
+  display: flex;
+  background-color: grey;
+  line-height: 70px;
+}
+.lofi p {
+  font-size: 40px;
+  color: white;
+  font-family: Abril Fatface;
+  text-align: left;
+  width: 210px;
+}
+.lofi::before {
+  content: open-quote;
+  font-family: Abril Fatface;
+  color: white;
+  font-size: 140px;
+  position: absolute;
+  left: 290px;
+  top: 1425px;
+}
+::before {
+  content: no-close-quote;
+}
+.training {
+  line-height: 0px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.sixthblock {
+  display: flex;
+}
+.description3 {
+  diplay: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
